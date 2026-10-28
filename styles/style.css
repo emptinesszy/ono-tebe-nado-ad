@@ -1,1 +1,74 @@
+.main{
+    padding: 50px 0;
+}
 
+.card {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color:rgb(0 0 0 / 0.6);
+}
+
+.address {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_left {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.header {}
+.header__menu {}
+.header__links-list {}
+.header__links-list-item {}
+.header__links-list-item_no-bullit {}
+.header__link {}
+.header__link_active {}
+.header__logo {}
+.header__logo-image {}
+.header__address {}
+
+.cover {}
+.cover__title {}
+.description {}
+.bet-button {}
+
+.lots {}
+.lots__heading {}
+.lots__card-list {}
+.lots__card-list-item {}
+.card-link {}
+.card__title {}
+.card__text {}
+.lots__look-more-link {}
+
+.about {}
+.about__column {}
+.about__logo {}
+.about__title {}
+.about__text {}
+
+.footer {}
+.footer__address {}
+.footer__menu {}
+.footer__social-list {}
