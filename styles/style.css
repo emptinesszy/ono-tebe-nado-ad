@@ -37,16 +37,66 @@
     text-align: right;
 }
 
-.header {}
-.header__menu {}
-.header__links-list {}
-.header__links-list-item {}
-.header__links-list-item_no-bullit {}
-.header__link {}
-.header__link_active {}
-.header__logo {}
-.header__logo-image {}
-.header__address {}
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 94px 50px;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__links-list {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    list-style: none;
+}
+
+.header__links-list-item {
+    list-style: circle;
+    margin: 15px;
+    white-space: nowrap;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+    margin-left: 0;
+}
+
+.header__link {
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__address {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 240px;
+}
+
+.header__address a {
+  text-decoration: none;
+}
 
 .cover {}
 .cover__title {}
